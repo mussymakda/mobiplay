@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Mobiplay</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+  </head>
+  <body class="">
+    <div id=""> 
+
+  <div id="navbar-wrapper" class="campaginstep-header">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#" class="step-logo"><img src="assets/images/logo.svg"></a>
+          <div class="right-nav">
+            <a href="#" class="notification-link"><img src="assets/images/darknotification.svg"></a>
+            <div class="lang-menu">
+              <a href="#" class="active"><img src="assets/images/us.svg"> EN</a>
+              <a href="#" class=""><img src="assets/images/spain.svg"> ES</a>
+            </div>
+            <a href="#" class="profile-name">James Mark <img src="assets/images/dark-dash-profile.png"></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="step-line">
+    <a href="goal.html" class="step-close">Close <img src="assets/images/close.svg"></a>
+    <div class="figure-list">
+      <ul>
+        <li>
+          <a href="#" class="active past"><label><img src="assets/images/trophy.svg"></label> <span>Goal</span></a>
+        </li>
+        <li><a class="active" href="#"><label><img src="assets/images/creative.svg"></label> <span>Creative</span></a></li>
+        <li><a href="#" class=""><label><img src="assets/images/schedule.svg"></label> <span>Schedule</span></a></li>
+        <li><a href="#"><label><img src="assets/images/location.svg"></label> <span>Locations</span></a></li>
+        <li><a href="#"><label><img src="assets/images/ad.svg"></label> <span>Ad Spend</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <section id="content-wrapper" class="">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="choose-campgain">              
+              <h2 class="text-start">Creative</h2>
+              <p class="text-start">Upload and edit your advertisement</p>
+            </div>
+            <div class="row justify-content-between">
+              <div class="col-lg-7">
+                <div class="creative-box mb-3">
+                  <div class="creative-inner">
+                  <div class="row align-items-center">
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <h6>Upload Media<sup>*</sup></h6>
+                        <div class="uploadmedia">
+                          <label class="">
+                            <input type="file" name="">
+                            Drop image here to upload
+                            <span>Browse</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="upmedia-details">
+                        <p>Asset must fit a 16:9 ratio or will be automatically resized upon upload</p>
+                        <p>If it does not. Supported video formats: MP4, MPEG, AVI and MOV</p>
+                         <p>Supported image formats: PNG and JPEG</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <hr>
+                  <div class="creative-inner">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-group mb-3">
+                          <h4>Embed QR Code</h4>
+                          <p>Adda trackable URL to track visits reported in your dashboard. A QR code will be generated to your ad upon upload.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-7">
+                        <div class="form-group mb-3">
+                          <h6>Call to Action (CTA)<sup>*</sup></h6>
+                          <input type="text" class="form-control bg-grey" name="">
+                        </div>
+                      </div>
+                      <div class="col-lg-7">
+                        <div class="form-group mb-3">
+                          <h6>Call to Action URL<sup>*</sup></h6>
+                          <input type="text" class="form-control bg-grey" name="">
+                        </div>
+                      </div>
+                      <div class="col-lg-5 align-content-center">
+                        <div class="form-group">
+                          <p class="url-visit mb-0">Visits to this URL are tracked and reported in your dashboard.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="creative-box mb-3">
+                  <div class="creative-inner">
+                    <h2>Content Categories*</h2>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="accordion creative-accordian" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Arts & Entertainment
+                            </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <div class="content-checkbox">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      Career Planning
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                    <label class="form-check-label" for="flexCheckDefault1">
+                                      Job Fairs
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                    <label class="form-check-label" for="flexCheckDefault2">
+                                      College
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                    <label class="form-check-label" for="flexCheckDefault3">
+                                      Job Search
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                    <label class="form-check-label" for="flexCheckDefault4">
+                                      Financial Aid
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Automotive
+                            </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Business
+                            </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Careers
+                            </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Education
+                            </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Family & Parenting
+                            </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            Resturants
+                            </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="creative-box">
+                  <div class="creative-inner">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-group mb-3">
+                          <h6>Advertiser's Website*</h6>
+                          <input type="text" class="form-control bg-grey" name="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="add-box">
+                  <a href="#" class="add-close"><img src="assets/images/add-close.svg"></a>
+                  <div class="advertisement">
+                    <img src="assets/images/addbase.png" class="img-fluid">
+                  </div>
+                  <p>Ad Preview</p>
+                </div>
+              </div>
+              
+              <div class="col-lg-6">
+                <div class="camp-grp-btn">
+                  <a href="goal.html" class="btn btn-secondary">Back</a>
+                  <a href="schedule.html" class="btn btn-primary">Next</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+</div>
+
+    <!-- Modal -->
+<div class="modal fade" id="campaign_Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      
+      <div class="modal-body p-0">
+        <div class="campaign-modal">
+          <div class="campaign-header">
+            <img src="assets/images/campaign-icon.svg">
+            <h2>Create a Campaign</h2>
+          </div>
+          <div class="campaign-body">
+            <div class="form-group mb-3">
+              <label>Name<sup>*</sup></label>
+              <input type="text" name="" class="form-control">
+            </div>
+            <div class="form-group mb-3">
+              <a href="#" class="btn btn-primary w-100">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript">
+      $(function() {
+      var start = moment().subtract(29, 'days');
+      var end = moment();
+      function cb(start, end) {
+      $('#reportrange span').html(start.format('MMM D, YYYY') + ' - ' + end.format('MMM D, YYYY'));
+      }
+      $('#reportrange').daterangepicker({
+      startDate: start,
+      endDate: end,
+      ranges: {
+      'Today': [moment(), moment()],
+      'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+      'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+      'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+      'This Month': [moment().startOf('month'), moment().endOf('month')],
+      'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+      }
+      }, cb);
+      cb(start, end);
+      });
+    </script>
+      <script type="text/javascript">
+      
+$('.lang-menu a').click(function(){
+    $('.lang-menu a.active').removeClass('active');
+    $(this).addClass('active');
+});
+    </script>
+  </body>
+</html>

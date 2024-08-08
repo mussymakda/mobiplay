@@ -1,0 +1,227 @@
+@media (min-width: 992px) {
+  #wrapper {
+    padding-left: 264px;
+  }
+  
+  #wrapper.toggled {
+    padding-left: 60px;
+  }
+
+  #sidebar-wrapper {
+    width: 264px;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    width: 60px;
+  }
+  
+  #wrapper.toggled #navbar-wrapper {
+    position: absolute;
+    margin-right: -190px;
+}
+  
+  #wrapper.toggled #content-wrapper {
+    position: absolute;
+    margin-right: -190px;
+  }
+
+  #navbar-wrapper {
+    position: relative;
+  }
+
+  #wrapper.toggled {
+    padding-left: 60px;
+  }
+
+  #content-wrapper {
+    position: relative;
+    top: 0;
+  }
+
+  #wrapper.toggled #navbar-wrapper,
+  #wrapper.toggled #content-wrapper {
+    position: relative;
+    margin-right: 60px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+	.logo-auth-desk{
+		display: none;
+	}
+	.auth-form{
+		padding: 20px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #wrapper {
+    padding-left: 60px;
+  }
+
+  #sidebar-wrapper {
+    width: 60px;
+  }
+  
+#wrapper.toggled #navbar-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+  
+  #wrapper.toggled #content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+  }
+
+  #navbar-wrapper {
+    position: relative;
+  }
+
+  #wrapper.toggled {
+    padding-left: 250px;
+  }
+
+  #content-wrapper {
+    position: relative;
+    top: 0;
+  }
+
+  #wrapper.toggled #navbar-wrapper,
+  #wrapper.toggled #content-wrapper {
+    position: relative;
+    margin-right: 250px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+	.auth-form h2{
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.auth-form{
+		padding: 20px 20px 30px;
+		min-height: calc(100vh - 107px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+	}
+	.auth-form.auth-with-height{
+		min-height: calc(100vh - 107px);
+	}
+	.auth-footer{
+		position: initial;
+	}
+	a.profile-auth{
+		position: initial;
+		padding: 10px 10px;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	.form-radio-grp .form-check{
+		padding: 30px 0px 30px 50px;
+		border-bottom: 1px solid #cbcbcb;
+	}
+	#wrapper {
+    	padding-left: 0;
+  	}
+
+  #sidebar-wrapper {
+    width: 0;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+  }
+  #wrapper.toggled #navbar-wrapper {
+    position: absolute;
+    margin-right: -250px;
+  }
+
+  #wrapper.toggled #content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+  }
+
+  #navbar-wrapper {
+    position: relative;
+  }
+
+  #wrapper.toggled {
+    padding-left: 250px;
+  }
+
+  #content-wrapper {
+    position: relative;
+    top: 0;
+  }
+
+  #wrapper.toggled #navbar-wrapper,
+  #wrapper.toggled #content-wrapper {
+    position: relative;
+    margin-right: 250px;
+  }
+  a.notification-link img {
+    width: 40px;
+  }
+  #navbar-wrapper .navbar-header .right-nav .profile-name{
+    border: 0;
+  }
+  #navbar-wrapper .navbar-header .right-nav .profile-name span{
+    display: none;
+  }
+  .navbar-header .right-nav .lang-menu{
+    padding: 6px 5px;
+  }
+  .navbar-header{
+    align-items: center;
+  }
+  .page-title h1{
+    font-size: 24px;
+  }
+  .create-campaign-box{
+    flex-direction: column-reverse;
+  }
+  .create-campaign-box .campaign-details{
+    margin-bottom: 15px;
+  }
+  .du-time {
+    padding: 15px 15px;
+    border-bottom: 1px solid #ddd;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-right: 0;
+  }
+  .add-schedule-box{
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid #ddd;
+        padding: 15px 0;
+  }
+  .add-schedule-box .add-schedule-select {
+    flex: none;
+    padding: 10px;
+    width: 100%;
+  }
+  .add-schedule-box .add-time{
+    flex: none;
+    width: 100%;
+    flex-direction: column;
+  }
+  .add-schedule-box .add-time .form-group{
+    margin: 10px 0px;
+    width: 100%;
+  }
+  .duration-body{
+    padding: 0;
+  }
+  .ad-close {
+    padding: 10px;
+    flex-shrink: 1;
+    width: 100%;
+  }
+  .duration-header h4{
+    flex: none;
+  }
+  .camp-grp-btn a{
+    margin: 5px;
+  }
+}

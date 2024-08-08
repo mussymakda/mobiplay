@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Mobiplay</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+  </head>
+  <body class="">
+    <div id=""> 
+
+  <div id="navbar-wrapper" class="campaginstep-header">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#" class="step-logo"><img src="assets/images/logo.svg"></a>
+          <div class="right-nav">
+            <a href="#" class="notification-link"><img src="assets/images/darknotification.svg"></a>
+            <div class="lang-menu">
+              <a href="#" class="active"><img src="assets/images/us.svg"> EN</a>
+              <a href="#" class=""><img src="assets/images/spain.svg"> ES</a>
+            </div>
+            <a href="#" class="profile-name">James Mark <img src="assets/images/dark-dash-profile.png"></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="step-line">
+    <a href="goal.html" class="step-close">Close <img src="assets/images/close.svg"></a>
+    <div class="figure-list">
+      <ul>
+        <li>
+          <a href="#" class="active past"><label><img src="assets/images/trophy.svg"></label> <span>Goal</span></a>
+        </li>
+        <li><a class="active past" href="#"><label><img src="assets/images/creative.svg"></label> <span>Creative</span></a></li>
+        <li><a href="#" class="active"><label><img src="assets/images/schedule.svg"></label> <span>Schedule</span></a></li>
+        <li><a href="#"><label><img src="assets/images/location.svg"></label> <span>Locations</span></a></li>
+        <li><a href="#"><label><img src="assets/images/ad.svg"></label> <span>Ad Spend</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <section id="content-wrapper" class="">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="choose-campgain">              
+              <h2 class="text-start">Schedule</h2>
+              <p class="text-start">Create a schedule for your campaign</p>
+            </div>
+            <div class="row justify-content-between">
+              <div class="col-lg-12">
+                <div class="duration-box mb-3">
+                  <div class="duration-header">
+                    <h3 class="text-start">Duration<sup>*</sup></h3>
+                    <p class="text-start">When should your campaign run?</p>
+                  </div>
+                  <div class="duration-body">
+                    <div class="row g-0">
+                      <div class="col-lg-4">
+                        <div class="du-time">
+                          <div class="form-group">
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                              <label class="form-check-label" for="flexRadioDefault1">
+                                Duration
+                                <span>When should your campaign run?</span>
+                              </label>
+                            </div>                            
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="du-time">
+                          <div class="form-group">
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                              <label class="form-check-label" for="flexRadioDefault2">
+                                Continuous
+                                <span>Your campaign will run between the dates you select</span>
+                              </label>
+                            </div>                            
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="du-time">
+                          <div class="form-group date">
+                            <label>Start Date*</label>
+                            <input type="text" class="form-control" name="start-date" value="" placeholder="Select here..." />
+                            <span class="form-icon"><img src="assets/images/date.svg"></span>
+                          </div>
+                          <div class="form-group date">
+                            <label>End Date*</label>
+                            <input type="text" class="form-control" name="end-date" value="" placeholder="Select here..." />
+                            <span class="form-icon"><img src="assets/images/date.svg"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                  
+                </div>
+                <div class="duration-box mb-3">
+                  <div class="duration-header d-flex">
+                    <h3 class="text-start mb-0">Ad Schedule</h3>
+                    <h4>Custom</h4>
+                  </div>
+                  <div class="duration-body">
+                    <div class="row g-0">                      
+                      <div class="col-lg-12">
+                        <div class="add-schedule-box">
+                          <div class="add-schedule-select">
+                            <div class="form-group">
+                              <select class="form-select">
+                                <option>All Days</option>
+                                <option>Monday</option>
+                                <option>Tuseday</option>
+                                <option>Wednesday</option>
+                                <option>Thursday</option>
+                                <option>Friday</option>
+                                <option>Saturday</option>
+                                <option>Sunday</option>
+                              </select>
+                              <span class="form-select-icon"><img src="assets/images/arrow-down.svg"></span>
+                            </div>
+                          </div>
+                          <div class="add-time">
+                            <div class="form-group">
+                              <select class="form-select">
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                              </select>
+                              <span class="form-select-icon"><img src="assets/images/arrow-select.svg"></span>
+                              
+                            </div>
+                            <span>to</span>
+                            <div class="form-group">
+                              <select class="form-select">
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                              </select>
+                              <span class="form-select-icon"><img src="assets/images/arrow-select.svg"></span>
+                            </div>
+                          </div>
+                          <div class="ad-close">
+                            <a href="#">All Days <img src="assets/images/close.svg"></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="add-schedule-box">
+                          <div class="add-schedule-select">
+                            <div class="form-group">
+                              <select class="form-select">
+                                <option>Sunday</option>
+                                <option>Monday</option>
+                                <option>Tuseday</option>
+                                <option>Wednesday</option>
+                                <option>Thursday</option>
+                                <option>Friday</option>
+                                <option>Saturday</option>
+                                <option>Sunday</option>
+                              </select>
+                              <span class="form-select-icon"><img src="assets/images/arrow-down.svg"></span>
+                            </div>
+                          </div>
+                          <div class="add-time">
+                            <div class="form-group">
+                              <select class="form-select">
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                              </select>
+                              <span class="form-select-icon"><img src="assets/images/arrow-select.svg"></span>
+                              
+                            </div>
+                            <span>to</span>
+                            <div class="form-group">
+                              <select class="form-select">
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                              </select>
+                              <span class="form-select-icon"><img src="assets/images/arrow-select.svg"></span>
+                            </div>
+                          </div>
+                          <div class="ad-close">
+                            <a href="#">Day Part <img src="assets/images/close.svg"></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="add-schedule-box">
+                          <div class="add-schedule-select">
+                            <div class="form-group">
+                              <select class="form-select">
+                                <option>All Days</option>
+                                <option>Monday</option>
+                                <option>Tuseday</option>
+                                <option>Wednesday</option>
+                                <option>Thursday</option>
+                                <option>Friday</option>
+                                <option>Saturday</option>
+                                <option>Sunday</option>
+                              </select>
+                              <span class="form-select-icon"><img src="assets/images/arrow-down.svg"></span>
+                            </div>
+                          </div>
+                          <div class="add-time">
+                            <div class="form-group">
+                              <select class="form-select">
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                              </select>
+                              <span class="form-select-icon"><img src="assets/images/arrow-select.svg"></span>
+                              
+                            </div>
+                            <span>to</span>
+                            <div class="form-group">
+                              <select class="form-select">
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                                <option>00:00 AM</option>
+                              </select>
+                              <span class="form-select-icon"><img src="assets/images/arrow-select.svg"></span>
+                            </div>
+                          </div>
+                          <div class="ad-close">
+                            <a href="#">All Days <img src="assets/images/close.svg"></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        
+                      </div>
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+              
+              
+              <div class="col-lg-12">
+                <div class="camp-grp-btn">
+                  <a href="#" class="btn btn-secondary">Back</a>
+                  <a href="#" class="btn btn-primary">Next</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+</div>
+
+    <!-- Modal -->
+<div class="modal fade" id="campaign_Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      
+      <div class="modal-body p-0">
+        <div class="campaign-modal">
+          <div class="campaign-header">
+            <img src="assets/images/campaign-icon.svg">
+            <h2>Create a Campaign</h2>
+          </div>
+          <div class="campaign-body">
+            <div class="form-group mb-3">
+              <label>Name<sup>*</sup></label>
+              <input type="text" name="" class="form-control">
+            </div>
+            <div class="form-group mb-3">
+              <a href="#" class="btn btn-primary w-100">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script>
+$(function() {
+  $('input[name="start-date"]').daterangepicker({
+    singleDatePicker: true,
+    showDropdowns: true,
+    minYear: 1901,
+    maxYear: parseInt(moment().format('YYYY'),10)
+  }, function(start, end, label) {
+    var years = moment().diff(start, 'years');
+    alert("You are " + years + " years old!");
+  });
+});
+$(function() {
+  $('input[name="end-date"]').daterangepicker({
+    singleDatePicker: true,
+    showDropdowns: true,
+    minYear: 1901,
+    maxYear: parseInt(moment().format('YYYY'),10)
+  }, function(start, end, label) {
+    var years = moment().diff(start, 'years');
+    alert("You are " + years + " years old!");
+  });
+});
+</script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript">
+      
+$('.lang-menu a').click(function(){
+    $('.lang-menu a.active').removeClass('active');
+    $(this).addClass('active');
+});
+    </script>
+  </body>
+</html>
