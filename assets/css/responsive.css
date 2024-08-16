@@ -1,3 +1,11 @@
+@media (max-width: 1620px){
+  .campaign-table table.table tr td{
+    font-size: 15px;
+  }
+  .campaign-table table.table tr td span{
+    font-size: 13px;
+  }
+}
 @media (min-width: 992px) {
   #wrapper {
     padding-left: 264px;
@@ -223,5 +231,51 @@
   }
   .camp-grp-btn a{
     margin: 5px;
+  }
+  .step-line{
+    position: relative;
+  }
+  .step-line .step-close{
+    position: absolute;
+    right: 0;
+  }
+  .summary-details .summary-d .summary-inside{
+    flex-direction: column;
+  }
+  .summary-details .summary-d .more-box .day-details{
+    flex-direction: column;
+  }
+  .summary-box{
+    padding: 15px;
+    margin-bottom: 30px;
+    height: auto;
+  }
+  .payment-select .form-select{
+    height: 48px;
+    font-size: 16px;
+  }
+  .payment-select span.form-select-icon{
+    top: 11px;
+  }
+  .payment-details{
+    padding: 15px;
+  }
+  .payment-details .form-group label{
+    font-size: 14px;
+  }
+  #navbar-wrapper.campaginstep-header .navbar .step-logo{
+    position: initial;
+  }
+  #navbar-wrapper.campaginstep-header .navbar .step-logo img {
+    height: 42px;
+  }
+  #navbar-wrapper .navbar-header .right-nav .profile-name img{
+    margin-left: 0;
+  }
+  #navbar-wrapper.campaginstep-header .navbar-header .right-nav .profile-name{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background: transparent;
   }
 }
