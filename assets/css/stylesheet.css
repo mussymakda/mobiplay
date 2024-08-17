@@ -1632,3 +1632,420 @@ a.camp-btn img{
 	border-radius: 10px;
 	padding: 15px 5px;
 }
+.profile-link a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    color: rgba(117, 117, 117, 1);
+
+}
+.profile-link a.active{
+	color: rgba(0, 0, 0, 1);
+	font-weight: 700;
+}
+.setting-box{
+	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.17);
+	background-color: #fff;
+	border-radius: 12px;
+	padding: 20px;
+	min-height: 550px;
+}
+.mobiplay-profile{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+.mobiplay-profile .mobiplay-left {
+    display: flex;
+    align-items: center;
+}
+.mobiplay-profile .mobiplay-left .profile-name{
+	padding-left: 20px;
+}
+.mobiplay-profile .mobiplay-left .profile-name h3{
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 36px;
+	letter-spacing: 0.01em;
+	text-align: left;
+	margin-bottom: 3px;
+}
+.mobiplay-profile .mobiplay-left .profile-name label{
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 36px;
+	letter-spacing: 0.01em;
+	text-align: left;
+	color: rgba(245, 81, 57, 1);
+	text-decoration: underline;
+}
+.mobiplay-profile .mobiplay-left .profile-name label input[type="file"] {
+    display: none;
+}
+.personal-info {
+    padding: 15px 15px 0;
+    max-width: 793px;
+}
+.personal-info h4{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 36px;
+	letter-spacing: 0.01em;
+	text-align: left;
+}
+.personal-info .persoanl-desc{
+	margin-bottom: 30px;
+}
+.personal-info .persoanl-desc label{
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 18.9px;
+	text-align: left;
+	color: rgba(51, 51, 51, 1);
+}
+.personal-info .persoanl-desc span{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 21.6px;
+	text-align: left;
+	color: rgba(117, 117, 117, 1);
+}
+.organization-desc{
+	background-color: rgba(238, 238, 238, 1);
+	padding: 30px 30px 10px;
+	margin-top: 20px;
+	border-radius: 10px;
+	max-width: 780px;
+}
+
+.organization-desc h4{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 36px;
+	letter-spacing: 0.01em;
+	text-align: left;
+	margin-bottom: 10px;
+}
+.organization-desc .organization-des{
+	margin-bottom: 20px;
+}
+.organization-desc .organization-des span{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 21.6px;
+	text-align: left;
+	color: rgba(117, 117, 117, 1);
+}
+.organization-desc .organization-des label{
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 18.9px;
+	text-align: left;
+	color: rgba(51, 51, 51, 1);
+}
+.personal-info.form-personal .form-group .form-control{
+	border: 1px solid rgba(203, 203, 203, 1);
+	background-color: rgba(246, 246, 246, 1);
+	border-radius: 10px;
+}
+.personal-info.form-personal .form-group label{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 25px;
+	letter-spacing: -0.005em;
+	text-align: left;
+
+}
+.personal-info.form-personal .form-group a{
+	min-width: 130px;
+	height: 48px;
+	line-height: 30px;
+}
+.btn-outline-primary {
+    color: rgba(84, 84, 84, 1);
+    padding: 9px 20px;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 50px;
+    border: 1px solid rgba(226, 226, 226, 1);
+}
+.payment-box {
+    background: rgba(246, 246, 246, 1);
+    border-radius: 11px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.payment-box .credit-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 20px;
+}
+.payment-box .credit-detail .cname h5{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 36px;
+	letter-spacing: 0.01em;
+	text-align: left;
+	margin-bottom: 0;
+}
+.payment-box .credit-detail .cname span{
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.01em;
+	text-align: left;
+	color: rgba(84, 84, 84, 1);
+}
+.payment-box .credit-detail .c-date label{
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 0.01em;
+	text-align: right;
+	color: rgba(84, 84, 84, 1);
+}
+.empty-payment-box{
+	border: 1.33px dotted rgba(213, 207, 207, 1);
+	border-radius: 10px;
+	height: calc(100% - 30px);	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+div#payment_Modal .modal-content{
+	border-radius: 10px;
+}
+.payment-method-modal{
+	padding: 30px;
+}
+.payment-method-modal .payment-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.payment-method-modal .payment-title h3{
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 36px;
+	letter-spacing: -0.01em;
+	text-align: left;
+	max-width: 234px;
+	flex-shrink: 0;
+}
+.payment-form .form-group .form-control{
+	background-color: rgba(246, 246, 246, 1);
+    border: 1px solid rgba(203, 203, 203, 1);
+    border-radius: 10px;
+    height: 50px;
+}
+.payment-form .form-group label {
+    color: #333333;
+    font-weight: 700;
+}
+.payment-form .form-group label sup {
+    color: #F55139;
+}
+.personal-info.history-table{
+	padding: 0;
+	max-width: 100%;
+}
+.personal-info.history-table h4{
+	padding: 25px 25px 0;
+}
+.personal-info.history-table .table>thead th {
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0) !important;
+    box-shadow: none;
+    background-color: #F6F6F6;
+}
+.personal-info.history-table .table tr td:first-child{
+	font-weight: 700;
+}
+.personal-info.history-table .table tr td{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 21.6px;
+	text-align: left;
+	padding: 20px;
+	vertical-align: middle;
+}
+.personal-info.history-table .table tr td a{
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 28px;
+	text-align: center;
+	padding: 0;
+	height: 28px;
+	width: 84px;
+
+}
+.setting-box.setting-last {
+    min-height: auto;
+}
+.setting-link{
+	padding: 10px;
+}
+.setting-link a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(238, 238, 238, 1);
+    padding: 15px 0px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 21.7px;
+	text-align: left;
+	color: rgba(94, 94, 94, 1);
+}
+.setting-link a span img.s-img {
+    margin-right: 5px;
+}
+.signout-link{
+	float: right;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 21.7px;
+	letter-spacing: 0.005em;
+	text-align: left;
+	color: rgba(232, 74, 74, 1);
+	text-decoration: none;
+}
+.push-notify {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.push-notify a{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 21.7px;
+	text-align: left;
+	color: rgba(94, 94, 94, 1);
+	text-decoration: none;
+}
+.push-notify .form-switch .form-check-input{
+	height: 25px;
+	width: 36px;
+}
+.page-title a{
+	position: relative;
+	display: inline-block;
+}
+.page-title a img {
+    width: 42px;
+    object-fit: cover;
+    object-position: center;
+    height: 42px;
+    transform: scale(1.8);
+}
+.about-desc p{
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 18.67px;
+	text-align: left;
+	color: rgba(117, 117, 117, 1);
+}
+.contact-img {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 274px;   
+}
+.contact-img h4{
+	text-align: center;
+	margin-top: 10px;
+}
+.contact-form{
+	padding-top: 30px;
+}
+.contact-form .form-group label{
+	font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.005em;
+    text-align: left;
+}
+.contact-form .form-group .form-control{
+	border: 1px solid rgba(203, 203, 203, 1);
+    background-color: rgba(246, 246, 246, 1);
+    border-radius: 10px;
+}
+.contact-form .form-group textarea.form-control{
+	height: auto;
+}
+.contact-form p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+	color: rgba(117, 117, 117, 1);
+	margin-bottom: 30px;
+}
+.faq-section .accordion-button::after{
+	background-image: url(../images/faq-deactive.svg);
+	width: 1.5rem;
+    height: 1.5rem;
+    background-size: 1.5rem;
+    margin-left: 0;
+    margin-right: auto;
+    left: 10px;
+    position: absolute;
+}
+.faq-section .accordion-button:not(.collapsed)::after {
+    background-image: url(../images/faq-active.svg);
+    transform: rotate(-180deg);
+}
+.faq-section .accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: transparent;
+    box-shadow: none;
+}
+.faq-section .accordion-button{
+	padding: 1.5rem 1rem 1.5rem 3rem;
+	border-bottom: 0;
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 25px;
+	letter-spacing: -0.005em;
+	text-align: left;
+
+}
+
+.faq-section .accordion-collapse{
+	border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+.faq-section .accordion-collapse.collapse.show{
+	border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+.faq-section .accordion-body{
+	padding: 0rem 3rem 1rem;
+}
+.faq-section .accordion-item {
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+.faq-section .accordion-body p{
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+	color: rgba(84, 84, 84, 1);
+}
+.faq-more{
+	padding: 20px 0 0;
+}
+.faq-more a{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22px;
+	text-align: center;
+	color: rgba(84, 84, 84, 1);
+	text-decoration: none;
+}
