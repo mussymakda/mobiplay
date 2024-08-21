@@ -12,6 +12,11 @@ $('.lang-menu a').click(function(){
     $(this).addClass('active');
 });
 
+$('.profile-drop-link').click(function(){
+    $('.profile-link').slideToggle('show');
+    
+});
+
 var options = {
   chart: {
     type: 'line',

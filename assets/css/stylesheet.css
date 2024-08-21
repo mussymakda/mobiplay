@@ -42,7 +42,9 @@ body{
 	border: 1px solid #000;
 	box-shadow: none;
 }
-
+.mobile-logo{
+	display: none;
+}
 .auth-section{
 	height: 100vh;
 }
@@ -2048,4 +2050,7 @@ div#payment_Modal .modal-content{
 	text-align: center;
 	color: rgba(84, 84, 84, 1);
 	text-decoration: none;
+}
+.profile-drop-link{
+	display: none;
 }

@@ -12,7 +12,7 @@
   }
   
   #wrapper.toggled {
-    padding-left: 60px;
+    padding-left: 80px;
   }
 
   #sidebar-wrapper {
@@ -20,7 +20,7 @@
   }
   
   #wrapper.toggled #sidebar-wrapper {
-    width: 60px;
+    width: 80px;
   }
   
   #wrapper.toggled #navbar-wrapper {
@@ -38,7 +38,7 @@
   }
 
   #wrapper.toggled {
-    padding-left: 60px;
+    padding-left: 80px;
   }
 
   #content-wrapper {
@@ -49,8 +49,32 @@
   #wrapper.toggled #navbar-wrapper,
   #wrapper.toggled #content-wrapper {
     position: relative;
-    margin-right: 60px;
+    margin-right: 80px;
   }
+
+  #wrapper.toggled #sidebar-wrapper .sidebar-nav > li a span{
+    display: none;
+  }
+  #wrapper.toggled #sidebar-wrapper .sidebar-nav > li a{
+    display: inline-block;
+  }
+  #wrapper.toggled #sidebar-wrapper .help-link span{
+    display: none;
+  }
+  #wrapper.toggled .sidebar-brand{
+    width: auto;
+  }
+  #wrapper.toggled .sidebar-brand a.desk-logo{
+    display: none;
+  }
+
+  #wrapper.toggled .sidebar-brand a.mobile-logo{
+    display: block;
+  }
+  #wrapper.toggled .sidebar-brand a.mobile-logo img{
+    width: 80px;
+  }
+
 }
 @media screen and (max-width: 991.98px) {
 	.logo-auth-desk{
@@ -133,10 +157,17 @@
 
   #sidebar-wrapper {
     width: 0;
+    margin-right: -264px;
+    left: auto;
+    right: 0;
+    height: 100vh;
   }
 
   #wrapper.toggled #sidebar-wrapper {
     width: 250px;
+    position: absolute;
+    left: auto;
+    right: 264px;
   }
   #wrapper.toggled #navbar-wrapper {
     position: absolute;
@@ -153,18 +184,22 @@
   }
 
   #wrapper.toggled {
-    padding-left: 250px;
+    padding-left: 0px;
+    height: 100vh;
+    overflow: hidden;
   }
+
 
   #content-wrapper {
     position: relative;
     top: 0;
+    padding: 0;
   }
 
   #wrapper.toggled #navbar-wrapper,
   #wrapper.toggled #content-wrapper {
     position: relative;
-    margin-right: 250px;
+    margin-right: 0px;
   }
   a.notification-link img {
     width: 40px;
@@ -235,10 +270,12 @@
   .step-line{
     position: relative;
   }
-  .step-line .step-close{
-    position: absolute;
-    right: 0;
-  }
+  .step-line .step-close {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 4px 5px 0;
+    }
   .summary-details .summary-d .summary-inside{
     flex-direction: column;
   }
@@ -278,4 +315,122 @@
     border: 0;
     background: transparent;
   }
+  .figure-list{
+    padding-top: 30px;
+  }
+  .figure-list ul:before{
+    width: 90%;
+  }
+  .campe-box{
+    height: auto;
+  }
+  .creative-box{
+    margin-bottom: 30px;
+  }
+  .loacat-section {
+    padding: 0 15px;
+  }
+  .spend-box{
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .choose-campgain h2{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .choose-campgain p{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .daily-budget-box{
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+  .daily-budget-box p{
+    margin-left: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .daily-budget-box h3{
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .campgain-tab.analytics-tab{
+    margin-left: 0;
+  }
+  .campgain-tab.analytics-tab nav .nav-link span{
+    display: none;
+  }
+  .navbar-brand{
+    margin-right: 7px;
+  }
+  .campgain-tab.analytics-tab nav .nav-link{
+    padding: 4px;
+  }
+  .campgain-tab{
+    margin-bottom: 15px;
+  }
+  .mobiplay-profile{
+    align-items: flex-start;
+  }
+  .mobiplay-profile .mobiplay-left{
+    flex-wrap: wrap;
+    flex: 1;
+  }
+  .mobiplay-profile .mobiplay-left .profile-name{
+    padding-left: 0;
+    padding-top: 10px;
+  }
+  .profile-drop-link{
+    display: block;
+    position: absolute;
+    right: 15px;
+    top:10px;
+  }
+  .profile-link {
+    display: none;
+    position: absolute;
+    background: #fff;
+    padding: 15px;
+    z-index: 99;
+    left: 15px;
+    right: 15px;
+    top: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.17);
+  }
+  .profile-link.show{
+    display: block;
+  }
+  .empty-payment-box{
+    height: 152px;
+  }
+  .personal-info.history-table{
+    overflow: hidden;
+  }
+  .page-title a.back-c{
+    position: absolute;
+  }
+  .page-title a.back-c {
+        position: absolute;
+        top: 5px;
+  }
+  .page-title a img {
+    width: 36px;
+    object-fit: cover;
+    object-position: center;
+    height: 36px;
+    transform: scale(1.6);
+}
+  .page-title h1.profile-title{
+    padding-left: 50px;
+  }
+  .setting-box{
+    padding: 10px 0;
+  }
+  .personal-info h4{
+    padding-left: 15px;
+  } 
+
 }
